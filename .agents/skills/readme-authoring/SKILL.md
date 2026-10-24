@@ -43,7 +43,7 @@ Keep the opening concise. Prefer descriptive headings, short paragraphs, and lis
 
 - Keep each language version semantically equivalent: preserve caveats, scope, navigation, and factual details in translation.
 - Use a clear language switch near the top of each README, linking to the other version with a relative path.
-- Use consistent, recognizable names for language variants, such as `README.md` for the primary language and `README-ENG.md` for English when that convention is already in use. Follow the repository's established naming convention rather than renaming files without need.
+- Use consistent, recognizable names for language variants, such as `README.md` for the primary language and `README.en.md` for English (a language-code suffix before `.md`) when that convention is already in use. Follow the repository's established naming convention rather than renaming files without need.
 - Translate explanatory prose naturally; preserve product names, code identifiers, commands, and technical terms when translation would reduce clarity.
 - When updating one version, check whether the corresponding translation also needs updating. Do not silently leave conflicting information between languages.
 

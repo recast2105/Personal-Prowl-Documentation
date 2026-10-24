@@ -1,24 +1,26 @@
 # Animation Graph
 
+[Read in English](README.en.md)
+
 ## Configuração da máquina de estados
 
 Para executar animações, crie uma **State Machine** e conecte sua saída (`Output`).
 
-![State Machine conectada à saída](../../Images/Pasted%20image%2020261024080319.png)
+![State Machine conectada à saída](images/state-machine-output.png)
 
 Adicione states para as animações e um state de transição. **Apenas um state de transição é aceito.** Defina um dos states de animação como padrão (`default`) e deixe-o sem conexão a parâmetros; ele será o state de retorno padrão.
 
-![States de animação e transição](../../Images/Pasted%20image%2020261024080454.png)
+![States de animação e transição](images/states-and-transition.png)
 
 ## Parâmetros de controle
 
 Use parâmetros personalizados para controlar o fluxo da animação. Esses parâmetros devem ser definidos pelo código.
 
-![Parâmetros personalizados](../../Images/Pasted%20image%2020261024080609.png)
+![Parâmetros personalizados](images/custom-parameters.png)
 
 A API de atribuição usa o prefixo `Set`, seguido pelo tipo de dado correspondente.
 
-![Métodos de atribuição de parâmetros](../../Images/Pasted%20image%2020261024080724.png)
+![Métodos de atribuição de parâmetros](images/parameter-set-methods.png)
 
 O primeiro argumento do método/função deve corresponder ao nome do parâmetro no Animation Graph. O segundo argumento deve corresponder ao tipo de dado desse parâmetro.
 

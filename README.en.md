@@ -9,13 +9,14 @@ A personal study and documentation repository for the **Prowl Engine**. It conta
 
 ## Contents
 
-- [Animation Graph](Prowl-Eng/Animation%20Graph/Animation%20Graph.en.md) — notes on state machines, parameters, and animation control.
-- [AnimationComponent (deprecated)](Prowl-Eng/AnimationComponent/AnimationComponent%20%28Deprecated%29%20en.md) — notes on a previous implementation of the component.
-- [Portuguese documentation](Prowl/) — original notes in Portuguese.
+Each topic has its own folder under [`docs`](docs/), with the Portuguese original in `README.md` and the English translation in `README.en.md`.
+
+- [Animation Graph](docs/animation-graph/README.en.md) — notes on state machines, parameters, and animation control.
+- [AnimationComponent (deprecated)](docs/animation-component-deprecated/README.en.md) — notes on a previous implementation of the component.
 
 ## Images
 
-Images used in the notes are stored in the [`Images`](Images/) folder. The documents use relative paths to display them; keep this folder alongside the Markdown files when copying or downloading the content.
+Each topic's images are stored in an `images/` subfolder of that topic's folder and displayed with relative paths; keep that subfolder alongside the Markdown files when copying or downloading the content.
 
 ## Contributing
 

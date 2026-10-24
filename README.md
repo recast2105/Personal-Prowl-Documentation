@@ -1,6 +1,6 @@
 # Prowl Engine — Documentação pessoal
 
-[Read in English](README-ENG.MD)
+[Read in English](README.en.md)
 
 Repositório pessoal de estudo e documentação da **Prowl Engine**. Aqui registro pesquisas, testes e observações sobre recursos da engine para consulta e referência futura.
 
@@ -9,13 +9,14 @@ Repositório pessoal de estudo e documentação da **Prowl Engine**. Aqui regist
 
 ## Conteúdo
 
-- [Animation Graph](Prowl/Animation%20Graph/Animation%20Graph.md) — notas sobre máquinas de estado, parâmetros e controle de animações.
-- [AnimationComponent (obsoleto)](Prowl/AnimationComponent/AnimationComponent%28Deprecated%29.md) — anotações sobre uma implementação anterior do componente.
-- [Documentação em inglês](Prowl-Eng/) — traduções disponíveis.
+Cada tópico fica em uma pasta própria dentro de [`docs`](docs/), com a versão em português em `README.md` e a tradução em inglês em `README.en.md`.
+
+- [Animation Graph](docs/animation-graph/README.md) — notas sobre máquinas de estado, parâmetros e controle de animações.
+- [AnimationComponent (obsoleto)](docs/animation-component-deprecated/README.md) — anotações sobre uma implementação anterior do componente.
 
 ## Imagens
 
-As imagens usadas nas notas ficam na pasta [`Images`](Images/). Os documentos usam caminhos relativos para exibi-las; mantenha essa pasta junto com os arquivos Markdown ao copiar ou baixar o conteúdo.
+As imagens de cada tópico ficam na subpasta `images/` da pasta do tópico e são exibidas por caminhos relativos; mantenha essa subpasta junto com os arquivos Markdown ao copiar ou baixar o conteúdo.
 
 ## Contribua
 
