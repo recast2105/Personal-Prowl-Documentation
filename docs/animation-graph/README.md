@@ -24,6 +24,12 @@ A API de atribuição usa o prefixo `Set`, seguido pelo tipo de dado corresponde
 
 O primeiro argumento do método/função deve corresponder ao nome do parâmetro no Animation Graph. O segundo argumento deve corresponder ao tipo de dado desse parâmetro.
 
+### Diferença entre Flag e Trigger
+
+![Parâmetros Flag e Trigger no Animation Graph](images/trigger-parameter.png)
+
+`Flag` representa um estado booleano (`true`/`false`) que permanece definido até ser alterado. `Trigger` é um disparo de uso único: ativa a transição ou ação associada uma vez, em vez de manter um estado booleano ativo.
+
 ## Recomendação
 
 Evite usar strings literais (`raw strings`) para identificar parâmetros. Considere usar `enum` e um `switch` para retornar o nome correto do parâmetro, ou constantes (`const`) se preferir uma abordagem mais simples. Isso reduz erros de digitação e facilita a manutenção.

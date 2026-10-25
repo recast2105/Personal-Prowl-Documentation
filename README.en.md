@@ -14,6 +14,7 @@ Each topic has its own folder under [`docs`](docs/), with the Portuguese origina
 - [Animation Graph](docs/animation-graph/README.en.md) — notes on state machines, parameters, and animation control.
 - [AnimationComponent (deprecated)](docs/animation-component-deprecated/README.en.md) — notes on a previous implementation of the component.
 
+
 ## Images
 
 Each topic's images are stored in an `images/` subfolder of that topic's folder and displayed with relative paths; keep that subfolder alongside the Markdown files when copying or downloading the content.

@@ -24,6 +24,12 @@ The assignment API uses the `Set` prefix followed by the corresponding data type
 
 The method/function's first argument must match the parameter name in the Animation Graph. Its second argument must match that parameter's data type.
 
+### Flag vs. Trigger
+
+![Flag and Trigger parameters in the Animation Graph](images/trigger-parameter.png)
+
+`Flag` represents a boolean state (`true`/`false`) that remains set until changed. `Trigger` is a one-shot signal: it activates the associated transition or action once, rather than keeping a boolean state active.
+
 ## Recommendation
 
 Avoid using raw strings to identify parameters. Consider using an `enum` and a `switch` to return the correct parameter name, or constants (`const`) for a simpler approach. This reduces typos and makes the code easier to maintain.

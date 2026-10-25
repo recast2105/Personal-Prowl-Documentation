@@ -14,6 +14,7 @@ Cada tópico fica em uma pasta própria dentro de [`docs`](docs/), com a versão
 - [Animation Graph](docs/animation-graph/README.md) — notas sobre máquinas de estado, parâmetros e controle de animações.
 - [AnimationComponent (obsoleto)](docs/animation-component-deprecated/README.md) — anotações sobre uma implementação anterior do componente.
 
+
 ## Imagens
 
 As imagens de cada tópico ficam na subpasta `images/` da pasta do tópico e são exibidas por caminhos relativos; mantenha essa subpasta junto com os arquivos Markdown ao copiar ou baixar o conteúdo.
